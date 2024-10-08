@@ -1,0 +1,6 @@
+nome = input('Digite seu nome: ').strip()
+print(nome.upper())
+print(nome.lower())
+print(format(len(nome) - nome.count(' ')))
+nome2 = nome.split()
+print(len(nome2[0]))
